@@ -954,10 +954,4 @@ MatchFile=line_thumbnail/file.tpl
 Subdir=templates
 Match[class_identifier]=file
 
-[block_mezza_3_items_default]
-Source=block/view/view.tpl
-MatchFile=block/mezza_3_items.tpl
-Subdir=templates
-Match[type]=Mezza3Items
-Match[view]=default
 */ ?>
