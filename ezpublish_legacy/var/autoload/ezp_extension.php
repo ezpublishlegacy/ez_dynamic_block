@@ -198,6 +198,7 @@ return array(
       'ezwtServerCallFunctions'                => 'extension/ezwt/classes/ezwtservercallfunctions.php',
       'ezxFormToken'                           => 'extension/ezformtoken/event/ezxformtoken.php',
       'ezxmltextSolrStorage'                   => 'extension/ezfind/classes/solrstorage/ezxmltextsolrstorage.php',
+      'mezzaLatestTaggedObjects'               => 'extension/mezza/classes/fetches/mezzalatesttaggedobjects.php',
     );
 
 ?>

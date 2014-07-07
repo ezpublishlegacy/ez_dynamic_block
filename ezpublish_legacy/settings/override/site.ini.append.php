@@ -17,6 +17,7 @@ ActiveExtensions[]=ezie
 ActiveExtensions[]=ezodf
 ActiveExtensions[]=ezprestapiprovider
 ActiveExtensions[]=ezfind
+ActiveExtensions[]=mezza
 
 [Session]
 SessionNameHandler=custom
