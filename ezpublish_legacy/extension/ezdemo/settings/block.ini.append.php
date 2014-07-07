@@ -14,6 +14,7 @@ AllowedTypes[]=ItemList
 AllowedTypes[]=FeedReader
 AllowedTypes[]=FeedbackForm
 AllowedTypes[]=HighlightedItem
+AllowedTypes[]=Mezza3Items
 
 [Campaign]
 Name=Campaign
@@ -154,5 +155,18 @@ ManualAddingOfItems=enabled
 ViewList[]
 ViewList[]=default
 ViewName[default]=Default
+
+[Mezza3Items]
+Name=Mezza 3 Items (Dynamic)
+NumberOfValidItems=3
+NumberOfArchivedItems=5
+ManualAddingOfItems=disabled
+FetchClass=mezzaLatestTaggedObjects
+FetchFixedParameters[Class]=article
+FetchFixedParameters[Source]=2
+FetchFixedParameters[Limit]=3
+ViewList[]=3_items1
+ViewName[3_items1]=3 items (1)
+
 
 */ ?>
