@@ -162,9 +162,9 @@ NumberOfValidItems=3
 NumberOfArchivedItems=5
 ManualAddingOfItems=disabled
 FetchClass=mezzaLatestTaggedObjects
-FetchFixedParameters[Class]=article
-FetchFixedParameters[Source]=2
-FetchFixedParameters[Limit]=3
+FetchParameters[Class]=article
+FetchParameters[Source]=2
+FetchParameters[Limit]=3
 ViewList[]=default
 ViewName[default]=Default Mezza Block
 
