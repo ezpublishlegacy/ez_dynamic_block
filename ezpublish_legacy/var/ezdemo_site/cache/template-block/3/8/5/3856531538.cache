@@ -1,0 +1,390 @@
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Home - Website Interface</title>
+
+    
+    
+                <meta name="Content-Type" content="text/html; charset=utf-8" />
+
+            <meta name="Content-language" content="en-GB" />
+
+        
+    <meta name="MSSmartTagsPreventParsing" content="TRUE" />
+    <meta name="generator" content="eZ Publish" />
+        
+<link rel="Home" href="/ezpublish/eng" title="Website Interface front page" />
+<link rel="Index" href="/ezpublish/eng" />
+<link rel="Top"  href="/ezpublish/eng" title="Home - Website Interface" />
+<link rel="Search" href="/ezpublish/eng/content/advancedsearch" title="Search Website Interface" />
+<link rel="Shortcut icon" href="/ezpublish/design/standard/images/favicon.ico" type="image/x-icon" />
+<link rel="Copyright" href="/ezpublish/eng/ezinfo/copyright" />
+<link rel="Author" href="/ezpublish/eng/ezinfo/about" />
+<link rel="Alternate" type="application/rss+xml" title="RSS" href="/ezpublish/eng/rss/feed/my_feed" />
+
+<script type="text/javascript">
+(function() {
+    var head = document.getElementsByTagName('head')[0];
+    var printNode = document.createElement('link');
+    printNode.rel = 'Alternate';
+    printNode.href = "/ezpublish/eng/layout/set/print/ezflow/timeline/2" + document.location.search;
+    printNode.media = 'print';
+    printNode.title = "Printable version";
+    head.appendChild(printNode);
+})();
+</script>      <link rel="stylesheet" type="text/css" href="/ezpublish/var/ezdemo_site/cache/public/stylesheets/eb40df1e18f8d58fc60d0be6127f59c2_all.css" />
+<link rel="stylesheet" type="text/css" href="/ezpublish/extension/ezdemo/design/ezdemo/stylesheets/print.css" media="print" />
+
+<script type="text/javascript" src="/ezpublish/var/ezdemo_site/cache/public/javascript/0f7669aa3c95d72137f9b34fffa03caa.js" charset="utf-8"></script>
+
+</head>
+<body>
+<!-- Complete page area: START -->
+
+<div id="page" class=" section_id_1 subtree_level_0_node_id_2 yui-skin-sam yui-skin-ezflow">
+
+                
+
+<div id="ezflow-timeline">
+
+    <div id="timeline-loader">
+        <p><span class="text">Loading, please wait...</span><img src="/ezpublish/extension/ezflow/design/ezflow/images/timeline/loading.gif" alt="Loading" title="Loading" /></p>
+    </div>
+
+    <div id="date_selecter"><span id="show_calendar">Sunday 06 July 2014</span></div>
+
+    <div id="cal1Container"></div> 
+
+    <div id="slider-container">
+        <div class="slider-labels">
+            <span style="left: 254.97777777778px" class="ticker_label" id="scrubbing-time">09:07</span>
+        </div>
+
+        <div id="slider-bg">
+            <div id="slider-thumb"><img src="/ezpublish/extension/ezflow/design/ezflow/images/timeline/thumb-n.gif"></div>
+        </div>
+
+        
+        <div class="slider-labels">
+            
+                                                                            <span style="left: -7px" class="ticker_label">03:00</span>
+                                                            
+                                                                <span style="left: 73px" class="ticker_label">07:00</span>
+                    
+                
+                                                                            <span style="left: 153px" class="ticker_label">08:00</span>
+                                                                            <span style="left: 233px" class="ticker_label">09:00</span>
+                                                                            <span style="left: 313px" class="ticker_label">10:00</span>
+                                                                            <span style="left: 393px" class="ticker_label">11:00</span>
+                                                                            <span style="left: 473px" class="ticker_label">12:00</span>
+                                                                            <span style="left: 553px" class="ticker_label">13:00</span>
+                                                                            <span style="left: 633px" class="ticker_label">14:00</span>
+                
+        
+                
+                                                                        
+                <span class="timestamp">1404694835</span>
+                <span style="left: 713px" class="ticker_label">18:00</span>
+                                                                        
+                <span class="timestamp">1404709235</span>
+                <span style="left: 793px" class="ticker_label">22:00</span>
+                                                                        
+                <span class="timestamp">1404723635</span>
+                <span style="left: 873px" class="ticker_label">02:00</span>
+                
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/ezpublish/var/ezdemo_site/cache/public/javascript/1b5397a55c093976358eb474dfeecda5.js" charset="utf-8"></script>
+
+
+<script type="text/javascript">
+(function() {    YUILoader.onSuccess = function() {
+        YAHOO.namespace("timeline.slider");
+        YAHOO.timeline.slider.initalSliderPosition = 247.97777777778;
+
+        YAHOO.timeline.slider.slideLabelInitalSpacing = -7;
+        YAHOO.timeline.slider.middeStartPx = 80;
+        YAHOO.timeline.slider.rightStartPx = 640;
+
+        YAHOO.timeline.slider.timestampStart = 1404640800;
+        YAHOO.timeline.slider.timeStartHours = 03;
+        YAHOO.timeline.slider.timeStartMinutes = 00;
+
+        YAHOO.timeline.slider.nodeid = 2;
+        YAHOO.timeline.slider.fetchURL = "/ezpublish/eng/ezflow/preview";
+
+
+        YAHOO.namespace("timeline.calendar");    
+        YAHOO.timeline.calendar.arrowImageUP = 'url(/ezpublish/extension/ezflow/design/ezflow/images/timeline/arrow_up.gif)';
+        YAHOO.timeline.calendar.arrowImageDown = 'url(/ezpublish/extension/ezflow/design/ezflow/images/timeline/arrow_down.gif)';
+    }
+    YUILoader.addModule({        
+        name: 'prototype',
+        type: 'js',
+        fullpath: '/ezpublish/extension/ezflow/design/ezflow/javascript/prototype.js'
+    });
+    
+    YUILoader.addModule({        
+        name: 'timeline',
+        type: 'js',
+        fullpath: '/ezpublish/extension/ezflow/design/ezflow/javascript/timeline/timeline.js'
+    });
+
+    YUILoader.addModule({        
+        name: 'timeline-css',
+        type: 'css',
+        fullpath: '/ezpublish/extension/ezflow/design/ezflow/stylesheets/timeline/timeline.css'
+    });
+    
+    YUILoader.require(["calendar","slider","utilities","timeline","timeline-css","prototype"]);
+    YUILoader.insert();
+})();
+</script>        
+    <!-- Header area: START -->
+    <header>
+    <div class="container">
+        <div class="navbar extra-navi">
+            <div class="nav-collapse row">
+                <div id="lang-selector" class="transition-showed">                                    <a href="#lang-selector" class="current-lang" style="background:url(/ezpublish/share/icons/flags/eng-GB.gif) no-repeat 5px center">Eng&nbsp;↴</a>
+                                
+    <ul class="lang-select">
+                        <li class="current"><a href="#" style="background:url(/ezpublish/share/icons/flags/eng-GB.gif) no-repeat 5px center">Eng</a></li>
+                                    <li><a href="/ezpublish/eng/switchlanguage/to/ger/ezflow/timeline/2" style="background:url(/ezpublish/share/icons/flags/ger-DE.gif) no-repeat 5px center">Ger</a></li>
+                
+    </ul></div>
+
+                <ul class="nav">
+    <li id="tagcloud"><a href="/ezpublish/eng/content/view/tagcloud/2" title="Tag cloud">Tag cloud</a></li>
+    <li id="sitemap"><a href="/ezpublish/eng/content/view/sitemap/2" title="Site map">Site map</a></li>
+        <li id="myprofile"><a href="/ezpublish/eng/user/edit" title="My profile">My profile</a></li>
+    <li id="logout"><a href="/ezpublish/eng/user/logout" title="Logout">Logout ( Administrator Merul Patel )</a></li></ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span8">
+    <a href="/ezpublish/eng" title="Website Interface" class="logo"><img src="/ezpublish/extension/ezdemo/design/ezdemo/images/logo-ez.png" alt="Website Interface" /></a>
+</div>
+
+            <form class="span4 form-search" method="get" action="/ezpublish/eng/content/search" id="site-wide-search">
+    <label class="pull-right">
+        <span class="hidden">Search</span>
+                    <input class="search-query span3" type="search" name="SearchText" id="site-wide-search-field" placeholder="Search text" />
+                        </label>
+</form>
+        </div>
+    </div>
+</header>
+    <!-- Header area: END -->
+
+    
+    <div class="navbar main-navi">
+        <!-- Top menu area: START -->
+                    <!-- Top menu content: START -->
+<div class="navbar-inner">
+    <div class="container">
+
+        <a class="btn btn-navbar" data-action="toggleclass" data-class="nav-collapse" data-target=".main-navi .nav-collapse">Navigation</a>
+
+        <div class="nav-collapse">
+            <ul class="nav">
+                
+                                                                                                                                                                                                               
+                                                    <li id="node_id_61" class="firstli"><a href="/ezpublish/eng/Getting-Started">Getting Started</a></li>
+                                                                                                                                                                    
+                                                    <li id="node_id_74"><a href="/ezpublish/eng/Shopping">Shopping</a></li>
+                                                                                                                                                                    
+                                                    <li id="node_id_86"><a href="/ezpublish/eng/Partner">Partner</a></li>
+                                                                                                                                                                    
+                                                    <li id="node_id_90"><a href="/ezpublish/eng/Blog">Blog</a></li>
+                                                                                                                                                                                                                        
+                                                    <li id="node_id_97" class="lastli"><a href="/ezpublish/eng/Contact-Us">Contact Us</a></li>
+                                                                        </ul>
+        </div>
+
+    </div>
+</div>
+<!-- Top menu content: END -->
+                <!-- Top menu area: END -->
+
+        <!-- Path area: START -->
+                    <div class="breadcrumb-wrapper nav-collapse">
+    <!-- Path content: START -->
+<div class="container">
+    <ul class="breadcrumb">
+                <li class="active">
+            Home
+        </li>
+            </ul>
+</div>
+<!-- Path content: END -->
+</div>
+                <!-- Path area: END -->
+    </div>
+
+    <!-- Toolbar area: START -->
+              <div id="toolbar">
+  
+                                      
+<!-- eZ website toolbar: START -->
+
+<div id="ezwt">
+<div id="ezwt-content" class="float-break">
+
+<!-- eZ website toolbar content: START -->
+<div id="ezwt-ezlogo">
+<a href="/ezpublish/eng/ezinfo/about" title="About" target="_blank"><img src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-logo.png" width="66" height="25" alt="eZ" /></a>
+</div>
+<form method="post" action="/ezpublish/eng/content/action">
+<div id="ezwt-creataction" class="ezwt-actiongroup">
+<label for="ezwt-create" class="hide">Create:</label>    <select name="ClassID" id="ezwt-create">
+      <optgroup label="Content">
+            <option value="16">Article</option>
+            <option value="17">Blog</option>
+            <option value="18">Blog post</option>
+            <option value="19">Call To Action</option>
+            <option value="20">Call To Action Feedback</option>
+            <option value="13">Comment</option>
+            <option value="33">Event</option>
+            <option value="34">Event calendar</option>
+            <option value="22">Feedback form</option>
+            <option value="1">Folder</option>
+            <option value="30">Forum</option>
+            <option value="32">Forum reply</option>
+            <option value="31">Forum topic</option>
+            <option value="36">Forums</option>
+            <option value="29">Gallery</option>
+            <option value="23">Landing Page</option>
+            <option value="28">Link</option>
+            <option value="38">Place</option>
+            <option value="39">Place list</option>
+            <option value="25">Poll</option>
+            <option value="21">Product</option>
+            <option value="24">Wiki Page</option>
+        </optgroup>
+      <optgroup label="Media">
+            <option value="26">File</option>
+            <option value="27">Image</option>
+            <option value="37">Video</option>
+        </optgroup>
+      <optgroup label="Setup">
+            <option value="15">Template look</option>
+        </optgroup>
+      <optgroup label="Users">
+            <option value="4">User</option>
+            <option value="3">User group</option>
+        </optgroup>
+    </select>
+    <input type="hidden" name="ContentLanguageCode" value="eng-GB" />
+  <input class="ezwt-input-image" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-create.png" name="NewButton" title="Create here" />
+</div>
+<div id="ezwt-currentpageaction" class="ezwt-actiongroup">
+    <input type="hidden" name="ContentObjectLanguageCode" value="eng-GB" />
+    <input class="ezwt-input-image" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-edit.png" name="EditButton" title="Edit: Home [Landing Page]" />            <input class="ezwt-input-image disabled" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-locations-disabled.png" name="AddAssignmentButton" title="Add locations" disabled="disabled" />
+    
+<a href="/ezpublish/eng/websitetoolbar/sort/2" title="Sorting"><img src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-sort.png" alt="Sorting" /></a>
+
+</div>
+
+<div id="ezwt-miscaction" class="ezwt-actiongroup">
+                                                                                    <input type="image" disabled="disabled" class="ezwt-input-image disabled" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-url.png" alt="Toggle menu link type edit." title="Toggle menu link type edit." id="ezwt-link-switcher" />
+
+<script type="text/javascript">
+
+(function( d )
+{
+    addEvent( window, 'load', function(){
+        var link = d.getElementById('ezwt-link-switcher');
+        link.disabled = false;
+        link.className = 'ezwt-input-image';
+
+        addEvent( link, 'click', function( e ){
+            e = e || window.event;
+            if( e.preventDefault ) e.preventDefault();
+            else e.returnValue = false;
+            var links = getByClass( d, 'menu-item-link' );
+            for (var i = 0, l = links.length; i < l; i++)
+            {
+                var rel = links[i].getAttribute('rel'), href = links[i].getAttribute('href'), target = links[i].getAttribute('target'), rev = links[i].getAttribute('rev');
+                links[i].setAttribute('rel',  href );
+                links[i].setAttribute('href', rel );
+                links[i].setAttribute('target', rev ? rev : '' );
+                links[i].setAttribute('rev', target ? target : '' );
+            }
+            return false;
+        });
+    });
+
+    function getByClass( n, className )
+    {
+        if (n.getElementsByClassName)
+          return n.getElementsByClassName(className);
+
+        var hits = [], els = n.getElementsByTagName("*");
+        for (var i = 0, l = els.length; i < l; i++)
+        {
+            if ( els[i].className && ( ' ' + els[i].className + ' ').indexOf( ' ' + className + ' ' ) !== -1 )
+                hits.push( els[i] );
+        }
+        return hits;
+    }
+
+    function addEvent( n, trigger, handler )
+    {
+        if ( n.addEventListener ) n.addEventListener( trigger, handler, true );
+        else if ( n.attachEvent ) n.attachEvent( 'on' + trigger, handler );
+    }
+})( document );
+
+</script>                                                        <a href="/ezpublish/eng/ezflow/timeline/2" title="Timeline"><img class="ezwt-input-image" src="/ezpublish/extension/ezflow/design/ezflow/images/websitetoolbar/ezwt-icon-timeline.png" alt="Timeline" /></a>                                                        <a href="/ezpublish/eng/ezflow/push/2" title="Add to block in frontpage"><img class="ezwt-input-image" src="/ezpublish/extension/ezflow/design/ezflow/images/websitetoolbar/ezwt-icon-push.png" alt="Add to block in frontpage" /></a>
+                                                                                                                              
+  <input type="hidden" name="HasMainAssignment" value="1" />
+  <input type="hidden" name="ContentObjectID" value="57" />
+  <input type="hidden" name="NodeID" value="2" />
+  <input type="hidden" name="ContentNodeID" value="2" />
+  
+            <input type="hidden" name="ContentObjectLanguageCode" value="eng-GB" />
+
+    <a href="http://127.0.0.1:8080/ezpublish/index.php/admin_site/" target="_blank" title="Go to admin interface."><img src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-admin.png" alt="Go to admin interface." /></a>
+</div>
+</form>
+<div id="ezwt-help">
+<a href="http://ez.no/doc" title="Documentation" target="_blank"><span class="hide">Documentation</span>?</a>
+</div>
+<!-- eZ website toolbar content: END -->
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+(function()
+{
+    var body = document.body, ezwt = document.getElementById( 'ezwt' );
+    if ( !ezwt ) return;
+    if ( body.className.indexOf('ie6') !== -1 ) return;
+
+    if ( body.className )
+        body.className += ' floating-wt';
+    else
+        body.className = 'floating-wt';
+
+    // Set padding on header / body based on height of toolbar
+    var page = document.getElementById( 'page' )
+    if ( page )
+        page.getElementsByTagName('div')[0].style.paddingTop = ezwt.offsetHeight + 'px';
+    else
+        body.style.paddingTop = ezwt.offsetHeight + 'px';
+})();
+</script>
+
+
+<!-- eZ website toolbar: END -->
+  </div>        <!-- Toolbar area: END -->
+
+    <!-- Columns area: START -->
+    <div class="container">
+        <div class="row">
+            <!-- Side menu area: START -->
+                        <!-- Side menu area: END -->
+        

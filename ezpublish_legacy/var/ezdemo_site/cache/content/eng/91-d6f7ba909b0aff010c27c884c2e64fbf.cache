@@ -1,0 +1,244 @@
+a:10:{s:7:"content";s:7897:"
+
+<section class="content-view-full">
+    <div class="class-blog-post">
+        <div class="row">
+            <div class="span8">
+                <div class="attribute-header">
+                    <h1>This will be our magic recipe</h1>
+                </div>
+
+                <div class="attribute-byline">
+                    <span class="date">28/03/2012 4:00 am</span>
+                    <span class="author">Administrator Merul Patel</span>
+                </div>
+
+                <div class="attribute-body float-break">
+                
+<p>Pretty simple:</p>
+<div class="object-center"><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+            
+
+    
+        
+    
+                                                                                                                                            <img src="/ezpublish/var/ezdemo_site/storage/images/media/images/screen-shot-2013-01-31-at-8.17.26-pm/521-1-eng-GB/Screen-Shot-2013-01-31-at-8.17.26-PM_large.png" width="360" height="225"  style="border: 0px solid ;" alt="Screen Shot 2013-01-31 at 8.17.26 PM" title="Screen Shot 2013-01-31 at 8.17.26 PM" />
+            
+    
+    
+            </div>
+        </div>
+</div>
+</div>                </div>
+
+                <div class="attribute-tags">
+                                    <ul class="tags-wrapper">
+        <li>
+        <a href="/ezpublish/eng/content/keyword/Blog Post">
+            <span class="tag-title">Blog Post</span>
+            <span class="tag-amount">1</span>
+        </a>
+    </li>
+        <li>
+        <a href="/ezpublish/eng/content/keyword/Social">
+            <span class="tag-title">Social</span>
+            <span class="tag-amount">1</span>
+        </a>
+    </li>
+        <li>
+        <a href="/ezpublish/eng/content/keyword/eZ Publish">
+            <span class="tag-title">eZ Publish</span>
+            <span class="tag-amount">1</span>
+        </a>
+    </li>
+        <li>
+        <a href="/ezpublish/eng/content/keyword/cxm">
+            <span class="tag-title">cxm</span>
+            <span class="tag-amount">1</span>
+        </a>
+    </li>
+    </ul>                </div>
+
+                <div class="attribute-comments">
+                                    </div>
+
+                
+            </div>
+            <div class="span4">
+                <aside>
+                    <section class="content-view-aside">
+                        <h2>Tag cloud</h2>
+<article>
+    <div class="attribute-tag-cloud">
+    <p>
+        <a href="/ezpublish/eng/content/keyword/Blog%20Post" style="font-size: 100%" title="1 objects tagged with 'Blog Post'">Blog Post</a> <a href="/ezpublish/eng/content/keyword/Social" style="font-size: 100%" title="1 objects tagged with 'Social'">Social</a> <a href="/ezpublish/eng/content/keyword/cxm" style="font-size: 100%" title="1 objects tagged with 'cxm'">cxm</a> <a href="/ezpublish/eng/content/keyword/eZ%20Publish" style="font-size: 100%" title="1 objects tagged with 'eZ Publish'">eZ Publish</a> <a href="/ezpublish/eng/content/keyword/landing%20page" style="font-size: 100%" title="1 objects tagged with 'landing page'">landing page</a> 
+    </p>
+    </div>
+</article>
+
+<h2>Tags</h2>
+<article>
+    <div class="attribute-tags">
+        <ul>
+                    <li><a href="/ezpublish/eng/Blog/(tag)/Blog%20Post" title="Blog Post">Blog Post (1)</a></li>
+                    <li><a href="/ezpublish/eng/Blog/(tag)/Social" title="Social">Social (1)</a></li>
+                    <li><a href="/ezpublish/eng/Blog/(tag)/cxm" title="cxm">cxm (1)</a></li>
+                    <li><a href="/ezpublish/eng/Blog/(tag)/eZ%20Publish" title="eZ Publish">eZ Publish (1)</a></li>
+                    <li><a href="/ezpublish/eng/Blog/(tag)/landing%20page" title="landing page">landing page (1)</a></li>
+                </ul>
+    </div>
+</article>
+
+<h2>Archive</h2>
+<article>
+    <div class="attribute-archive">
+        <ul>
+                    <li><a href="/ezpublish/eng/Blog/(month)/1/(year)/2013" title="">December 2012</a></li>
+                    <li><a href="/ezpublish/eng/Blog/(month)/3/(year)/2012" title="">February 2012</a></li>
+                </ul>
+    </div>
+</article>
+<!--START: CAL NAV -->
+    
+<div class="calendar">
+
+<div class="month">
+<div class="previous">
+<p><a href="/ezpublish/eng/Blog/(month)/6/(year)/2014" title="Previous month">&#8249;&#8249;<span class="hide"> Previous month</span></a></p>
+</div>
+<div class="next">
+<p><a href="/ezpublish/eng/Blog/(month)/8/(year)/2014" title="Next month"><span class="hide">Next month </span>&#8250;&#8250;</a></p>
+</div>
+<h2>July&nbsp;2014</h2>
+</div>
+
+<table cellspacing="0" border="0" summary="Calendar" class="list table-colorized">
+<tr class="top">
+    <th class="left">Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+    <th>Sat</th>
+    <th class="right">Sun</th>
+</tr>                <tr class="">
+                                            <td class="left">&nbsp;</td>
+                            <td class=" ">
+            1
+        </td>
+                            <td class=" ">
+            2
+        </td>
+                            <td class=" ">
+            3
+        </td>
+                            <td class=" ">
+            4
+        </td>
+                            <td class=" ">
+            5
+        </td>
+                                        <td class="currentselected today right">
+            6
+        </td>
+                </tr>
+                        <tr class="">
+                    <td class="  left">
+            7
+        </td>
+                            <td class=" ">
+            8
+        </td>
+                            <td class=" ">
+            9
+        </td>
+                            <td class=" ">
+            10
+        </td>
+                            <td class=" ">
+            11
+        </td>
+                            <td class=" ">
+            12
+        </td>
+                                        <td class="  right">
+            13
+        </td>
+                </tr>
+                        <tr class="">
+                    <td class="  left">
+            14
+        </td>
+                            <td class=" ">
+            15
+        </td>
+                            <td class=" ">
+            16
+        </td>
+                            <td class=" ">
+            17
+        </td>
+                            <td class=" ">
+            18
+        </td>
+                            <td class=" ">
+            19
+        </td>
+                                        <td class="  right">
+            20
+        </td>
+                </tr>
+                        <tr class="">
+                    <td class="  left">
+            21
+        </td>
+                            <td class=" ">
+            22
+        </td>
+                            <td class=" ">
+            23
+        </td>
+                            <td class=" ">
+            24
+        </td>
+                            <td class=" ">
+            25
+        </td>
+                            <td class=" ">
+            26
+        </td>
+                                        <td class="  right">
+            27
+        </td>
+                </tr>
+                        <tr class="bottom">
+                    <td class="  left">
+            28
+        </td>
+                            <td class=" ">
+            29
+        </td>
+                            <td class=" ">
+            30
+        </td>
+                            <td class=" ">
+            31
+        </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td class="right">&nbsp;</td>
+                                    </tr>
+        </table>
+
+</div>
+
+<!-- END: CAL NAV -->
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:3:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:4:"Blog";s:3:"url";s:21:"/content/view/full/90";s:9:"url_alias";s:4:"Blog";s:7:"node_id";s:2:"90";}i:2;a:4:{s:4:"text";s:29:"This will be our magic recipe";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:2:"91";}}s:10:"title_path";a:3:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:4:"Blog";s:3:"url";s:21:"/content/view/full/90";s:9:"url_alias";s:4:"Blog";s:7:"node_id";s:2:"90";}i:2;a:3:{s:4:"text";s:29:"This will be our magic recipe";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:2:"91";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:2:"89";s:7:"node_id";s:2:"91";s:14:"parent_node_id";s:2:"90";s:8:"class_id";s:2:"18";s:16:"class_identifier";s:9:"blog_post";s:9:"remote_id";s:32:"f6fdb5ffc10c01f8ba1093c206e9dc6a";s:14:"node_remote_id";s:32:"c0125304ac852abc3b7abe57f5ecbf21";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"3";s:9:"url_alias";s:34:"Blog/This-will-be-our-magic-recipe";s:16:"current_language";s:6:"eng-GB";s:13:"language_mask";s:1:"2";s:12:"main_node_id";s:2:"91";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";a:4:{s:9:"left_menu";b:0;s:10:"extra_menu";b:0;s:8:"keywords";s:34:"Blog Post, Social, eZ Publish, cxm";s:9:"css_files";a:1:{i:0;s:11:"comment.css";}}s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"17";s:23:"parent_class_identifier";s:4:"blog";s:21:"parent_node_remote_id";s:32:"0d05ff0c44f63901d8a1c0fbc5abc884";s:23:"parent_object_remote_id";s:32:"c62cbc4be226d3c7c7379e0cd9ef7ba7";}s:13:"template_list";a:2:{i:0;s:62:"extension/ezdemo/design/ezdemo/templates/tagcloud/tagcloud.tpl";i:1;s:64:"extension/ezdemo/design/ezdemo/templates/parts/blog/calendar.tpl";}s:9:"cache_ttl";i:-1;}

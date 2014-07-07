@@ -1,0 +1,59 @@
+[ Jul 06 2014 10:36:16 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' ORDER BY modified DESC
+LIMIT 0, 10
+[ Jul 06 2014 10:36:16 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 06 2014 10:36:16 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1' ORDER BY keyword ASC
+LIMIT 0, 10
+[ Jul 06 2014 10:36:16 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 06 2014 10:36:16 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1'
+[ Jul 06 2014 10:36:16 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 06 2014 10:36:16 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  parent_id='0' AND main_tag_id='0' ORDER BY keyword ASC
+[ Jul 06 2014 10:36:17 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 06 2014 10:36:18 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 06 2014 10:36:18 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  parent_id='0' AND main_tag_id='0' ORDER BY keyword ASC
+[ Jul 06 2014 10:36:20 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'Test' AND parent_id='0'
+[ Jul 06 2014 10:36:20 ] [127.0.0.1] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'Test', 1, '/', 0, '1849d5b933791ff0d428418b27deeae6')
+[ Jul 06 2014 10:36:20 ] [127.0.0.1] eZDBInterface::commit TRANSID-d2b2bd9216458c39f16f9ccb35393074:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-d2b2bd9216458c39f16f9ccb35393074.
+[ Jul 06 2014 14:32:37 ] [127.0.0.1] eZ Find:
+Empty response received from Solr
+[ Jul 06 2014 14:32:37 ] [127.0.0.1] eZContentOperationCollection::registerSearchObject:
+Failed adding object ID 57 in the search engine
+[ Jul 06 2014 14:36:52 ] [fe80::654:53ff:fe01:fa27] eZMySQLiDB:
+Query error (1146): Table 'bitnami_ezpublish.ezfind_elevate_configuration' doesn't exist. Query: DELETE FROM ezfind_elevate_configuration  WHERE  contentobject_id='111'
+[ Jul 06 2014 14:36:52 ] [fe80::654:53ff:fe01:fa27] eZDBInterface::commit TRANSID-61adb6828a2b2b2c1a1d67f0191fa4ed:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-61adb6828a2b2b2c1a1d67f0191fa4ed.
+[ Jul 06 2014 14:37:02 ] [fe80::654:53ff:fe01:fa27] error/view.php:
+Error ocurred using URI: /ezpublish/eng/content/edit/111/1
+[ Jul 06 2014 14:49:02 ] [fe80::654:53ff:fe01:fa27] eZTemplate @ extension/ezdemo/design/ezdemo/override/templates/block/item_list.tpl:16[16]:
+No such attribute for array(2): intro
+Choose one of following: name, page
+[ Jul 06 2014 14:49:57 ] [127.0.0.1] eZTemplate @ extension/ezdemo/design/ezdemo/override/templates/block/item_list.tpl:16[16]:
+No such attribute for array(2): intro
+Choose one of following: name, page
+[ Jul 06 2014 14:49:59 ] [127.0.0.1] eZ Find:
+Empty response received from Solr
+[ Jul 06 2014 14:49:59 ] [127.0.0.1] eZContentOperationCollection::registerSearchObject:
+Failed adding object ID 57 in the search engine

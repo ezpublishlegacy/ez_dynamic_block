@@ -1,0 +1,171 @@
+
+<h2>My latest content</h2>
+
+<table class="list" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Modified</th>
+        <th class="tight"></th>
+    </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Getting-Started/Selected-Features/Getting-Started-with-eZ-Publish-Platform" title="Getting Started with eZ Publish Platform">Getting Started with eZ Pub...</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                06/09/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/71/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Getting Started with eZ Publish Platform&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Blog/It-s-helping-me-optimizing-my-business" title="It's helping me optimizing my business">It's helping me optimizing...</a>
+            </td>
+            <td>
+                Blog post
+            </td>
+            <td>
+                06/09/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/91/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;It's helping me optimizing my business&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Getting-Started/Selected-Features/Automate" title="Automate">Automate</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                06/09/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/67/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Automate&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Getting-Started/Selected-Features/Optimize" title="Optimize">Optimize</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                06/09/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/70/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Optimize&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Getting-Started/Selected-Features/Deliver" title="Deliver">Deliver</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                06/09/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/68/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Deliver&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Getting-Started/Selected-Features/Create" title="Create">Create</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                06/09/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/69/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Create&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Blog/This-will-be-our-magic-recipe" title="This will be our magic recipe">This will be our magic recipe</a>
+            </td>
+            <td>
+                Blog post
+            </td>
+            <td>
+                26/02/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/89/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;This will be our magic recipe&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Shopping/Services/eZ-Publish-Enterprise-Service" title="eZ Publish Enterprise Service">eZ Publish Enterprise Service</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                26/02/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/82/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;eZ Publish Enterprise Service&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Shopping/Services/Training-Services" title="Training Services">Training Services</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                26/02/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/81/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Training Services&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/ezpublish/index.php/admin_site/Shopping/Services/Professional-Services" title="Professional Services">Professional Services</a>
+            </td>
+            <td>
+                Article
+            </td>
+            <td>
+                26/02/2013
+            </td>
+            <td>
+                            <a href="/ezpublish/index.php/admin_site/content/edit/80/f/eng-GB">
+                    <img src="/ezpublish/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Professional Services&gt;." />
+                </a>
+                        </td>
+        </tr>
+    </table>

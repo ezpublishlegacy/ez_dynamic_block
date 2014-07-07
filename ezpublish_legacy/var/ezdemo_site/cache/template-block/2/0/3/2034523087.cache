@@ -1,0 +1,228 @@
+
+    <div class="navbar main-navi">
+        <!-- Top menu area: START -->
+                    <!-- Top menu content: START -->
+<div class="navbar-inner">
+    <div class="container">
+
+        <a class="btn btn-navbar" data-action="toggleclass" data-class="nav-collapse" data-target=".main-navi .nav-collapse">Navigation</a>
+
+        <div class="nav-collapse">
+            <ul class="nav">
+                
+                                                                                                                                                                                                                                                                                                                       
+                                                    <li id="node_id_61" class="active firstli current"><a href="/ezpublish/eng/Getting-Started">Getting Started</a></li>
+                                                                                                                                                                    
+                                                    <li id="node_id_74"><a href="/ezpublish/eng/Shopping">Shopping</a></li>
+                                                                                                                                                                    
+                                                    <li id="node_id_86"><a href="/ezpublish/eng/Partner">Partner</a></li>
+                                                                                                                                                                    
+                                                    <li id="node_id_90"><a href="/ezpublish/eng/Blog">Blog</a></li>
+                                                                                                                                                                                                                        
+                                                    <li id="node_id_97" class="lastli"><a href="/ezpublish/eng/Contact-Us">Contact Us</a></li>
+                                                                        </ul>
+        </div>
+
+    </div>
+</div>
+<div class="navbar-inner sublevel">
+    <div class="container">
+
+        <div class="nav-collapse">
+            <ul class="nav">
+                                                                                                                                                                
+                                            <li id="node_id_62" class="firstli"><a href="/ezpublish/eng/Getting-Started/Feedback">Feedback</a></li>
+                                                                                                                                        
+                                            <li id="node_id_63"><a href="/ezpublish/eng/Getting-Started/Resources">Resources</a></li>
+                                                                                                                                        
+                                            <li id="node_id_68"><a href="/ezpublish/eng/Getting-Started/Selected-Features">Selected Features</a></li>
+                                                </ul>
+        </div>
+    </div>
+</div><!-- Top menu content: END -->
+                <!-- Top menu area: END -->
+
+        <!-- Path area: START -->
+                    <div class="breadcrumb-wrapper nav-collapse">
+    <!-- Path content: START -->
+<div class="container">
+    <ul class="breadcrumb">
+                <li>
+            <a href="/ezpublish/eng">Home</a> <span class="divider">&raquo;</span>
+        </li>
+                    <li class="active">
+            Getting Started
+        </li>
+            </ul>
+</div>
+<!-- Path content: END -->
+</div>
+                <!-- Path area: END -->
+    </div>
+
+    <!-- Toolbar area: START -->
+              <div id="toolbar">
+  
+                                      
+<!-- eZ website toolbar: START -->
+
+<div id="ezwt">
+<div id="ezwt-content" class="float-break">
+
+<!-- eZ website toolbar content: START -->
+<div id="ezwt-ezlogo">
+<a href="/ezpublish/eng/ezinfo/about" title="About" target="_blank"><img src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-logo.png" width="66" height="25" alt="eZ" /></a>
+</div>
+<form method="post" action="/ezpublish/eng/content/action">
+<div id="ezwt-creataction" class="ezwt-actiongroup">
+<label for="ezwt-create" class="hide">Create:</label>    <select name="ClassID" id="ezwt-create">
+      <optgroup label="Content">
+            <option value="16">Article</option>
+            <option value="17">Blog</option>
+            <option value="18">Blog post</option>
+            <option value="19">Call To Action</option>
+            <option value="20">Call To Action Feedback</option>
+            <option value="13">Comment</option>
+            <option value="33">Event</option>
+            <option value="34">Event calendar</option>
+            <option value="22">Feedback form</option>
+            <option value="1">Folder</option>
+            <option value="30">Forum</option>
+            <option value="32">Forum reply</option>
+            <option value="31">Forum topic</option>
+            <option value="36">Forums</option>
+            <option value="29">Gallery</option>
+            <option value="23">Landing Page</option>
+            <option value="28">Link</option>
+            <option value="38">Place</option>
+            <option value="39">Place list</option>
+            <option value="25">Poll</option>
+            <option value="21">Product</option>
+            <option value="24">Wiki Page</option>
+        </optgroup>
+      <optgroup label="Media">
+            <option value="26">File</option>
+            <option value="27">Image</option>
+            <option value="37">Video</option>
+        </optgroup>
+      <optgroup label="Setup">
+            <option value="15">Template look</option>
+        </optgroup>
+      <optgroup label="Users">
+            <option value="4">User</option>
+            <option value="3">User group</option>
+        </optgroup>
+    </select>
+    <input type="hidden" name="ContentLanguageCode" value="eng-GB" />
+  <input class="ezwt-input-image" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-create.png" name="NewButton" title="Create here" />
+</div>
+<div id="ezwt-currentpageaction" class="ezwt-actiongroup">
+    <input type="hidden" name="ContentObjectLanguageCode" value="eng-GB" />
+    <input class="ezwt-input-image" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-edit.png" name="EditButton" title="Edit: Getting Started [Landing Page]" />    <input class="ezwt-input-image" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-move.png" name="MoveNodeButton" title="Move: Getting Started [Landing Page]" />    <input class="ezwt-input-image" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-remove.png" name="ActionRemove" title="Remove: Getting Started [Landing Page]" />            <input class="ezwt-input-image" type="image" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-locations.png" name="AddAssignmentButton" title="Add locations" />
+    
+<a href="/ezpublish/eng/websitetoolbar/sort/61" title="Sorting"><img src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-sort.png" alt="Sorting" /></a>
+
+</div>
+
+<div id="ezwt-miscaction" class="ezwt-actiongroup">
+                                                                                    <input type="image" disabled="disabled" class="ezwt-input-image disabled" src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-url.png" alt="Toggle menu link type edit." title="Toggle menu link type edit." id="ezwt-link-switcher" />
+
+<script type="text/javascript">
+
+(function( d )
+{
+    addEvent( window, 'load', function(){
+        var link = d.getElementById('ezwt-link-switcher');
+        link.disabled = false;
+        link.className = 'ezwt-input-image';
+
+        addEvent( link, 'click', function( e ){
+            e = e || window.event;
+            if( e.preventDefault ) e.preventDefault();
+            else e.returnValue = false;
+            var links = getByClass( d, 'menu-item-link' );
+            for (var i = 0, l = links.length; i < l; i++)
+            {
+                var rel = links[i].getAttribute('rel'), href = links[i].getAttribute('href'), target = links[i].getAttribute('target'), rev = links[i].getAttribute('rev');
+                links[i].setAttribute('rel',  href );
+                links[i].setAttribute('href', rel );
+                links[i].setAttribute('target', rev ? rev : '' );
+                links[i].setAttribute('rev', target ? target : '' );
+            }
+            return false;
+        });
+    });
+
+    function getByClass( n, className )
+    {
+        if (n.getElementsByClassName)
+          return n.getElementsByClassName(className);
+
+        var hits = [], els = n.getElementsByTagName("*");
+        for (var i = 0, l = els.length; i < l; i++)
+        {
+            if ( els[i].className && ( ' ' + els[i].className + ' ').indexOf( ' ' + className + ' ' ) !== -1 )
+                hits.push( els[i] );
+        }
+        return hits;
+    }
+
+    function addEvent( n, trigger, handler )
+    {
+        if ( n.addEventListener ) n.addEventListener( trigger, handler, true );
+        else if ( n.attachEvent ) n.attachEvent( 'on' + trigger, handler );
+    }
+})( document );
+
+</script>                                                        <a href="/ezpublish/eng/ezflow/timeline/61" title="Timeline"><img class="ezwt-input-image" src="/ezpublish/extension/ezflow/design/ezflow/images/websitetoolbar/ezwt-icon-timeline.png" alt="Timeline" /></a>                                                        <a href="/ezpublish/eng/ezflow/push/61" title="Add to block in frontpage"><img class="ezwt-input-image" src="/ezpublish/extension/ezflow/design/ezflow/images/websitetoolbar/ezwt-icon-push.png" alt="Add to block in frontpage" /></a>
+                                                                                                                              
+  <input type="hidden" name="HasMainAssignment" value="1" />
+  <input type="hidden" name="ContentObjectID" value="59" />
+  <input type="hidden" name="NodeID" value="61" />
+  <input type="hidden" name="ContentNodeID" value="61" />
+  
+            <input type="hidden" name="ContentObjectLanguageCode" value="eng-GB" />
+
+    <a href="http://127.0.0.1:8080/ezpublish/index.php/admin_site/Getting-Started" target="_blank" title="Go to admin interface."><img src="/ezpublish/extension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-admin.png" alt="Go to admin interface." /></a>
+</div>
+</form>
+<div id="ezwt-help">
+<a href="http://ez.no/doc" title="Documentation" target="_blank"><span class="hide">Documentation</span>?</a>
+</div>
+<!-- eZ website toolbar content: END -->
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+(function()
+{
+    var body = document.body, ezwt = document.getElementById( 'ezwt' );
+    if ( !ezwt ) return;
+    if ( body.className.indexOf('ie6') !== -1 ) return;
+
+    if ( body.className )
+        body.className += ' floating-wt';
+    else
+        body.className = 'floating-wt';
+
+    // Set padding on header / body based on height of toolbar
+    var page = document.getElementById( 'page' )
+    if ( page )
+        page.getElementsByTagName('div')[0].style.paddingTop = ezwt.offsetHeight + 'px';
+    else
+        body.style.paddingTop = ezwt.offsetHeight + 'px';
+})();
+</script>
+
+
+<!-- eZ website toolbar: END -->
+  </div>        <!-- Toolbar area: END -->
+
+    <!-- Columns area: START -->
+    <div class="container">
+        <div class="row">
+            <!-- Side menu area: START -->
+                        <!-- Side menu area: END -->
+    
