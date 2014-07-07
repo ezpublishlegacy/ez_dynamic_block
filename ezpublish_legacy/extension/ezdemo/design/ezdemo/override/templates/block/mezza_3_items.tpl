@@ -1,6 +1,16 @@
 {def $valid_nodes = $block.valid_nodes}
 
-{def $articles_with_tag = fetch( 'content', 'list', hash( 'parent_node_id', 2, 'depth', 3))}
+{def $articles_with_tag = fetch(
+    'content', 'tree',
+    hash('parent_node_id', 2,
+        'extended_attribute_filter', hash(
+            'id', 'TagsAttributeFilter',
+            'params', hash(
+                'tag_id', array( 1,2,3,4,5,6)
+            )
+        )
+    )
+)}
 
 <h2>MM{'Block:'|i18n( 'design/standard/block/view' )} {ezini( $block.type, 'Name', 'block.ini' )}</h2>
 
