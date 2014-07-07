@@ -929,4 +929,11 @@ Source=content/view/tiny.tpl
 MatchFile=tiny_image.tpl
 Subdir=templates
 Match[class_identifier]=image
+
+[block_mezza_3_items_default]
+Source=block/view/view.tpl
+MatchFile=block/mezza_3_items.tpl
+Subdir=templates
+Match[type]=Mezza3Items
+Match[view]=default
 */ ?>

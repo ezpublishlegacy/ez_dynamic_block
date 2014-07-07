@@ -165,8 +165,8 @@ FetchClass=mezzaLatestTaggedObjects
 FetchFixedParameters[Class]=article
 FetchFixedParameters[Source]=2
 FetchFixedParameters[Limit]=3
-ViewList[]=3_items1
-ViewName[3_items1]=3 items (1)
+ViewList[]=default
+ViewName[default]=Default Mezza Block
 
 
 */ ?>
