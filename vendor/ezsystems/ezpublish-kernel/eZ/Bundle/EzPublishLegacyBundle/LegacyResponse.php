@@ -1,0 +1,50 @@
+<?php
+/**
+ * File containing the LegacyResponse class.
+ *
+ * @copyright Copyright (C) 1999-2014 eZ Systems AS. All rights reserved.
+ * @license http://ez.no/licenses/gnu_gpl GNU General Public License v2.0
+ * @version 
+ */
+
+namespace eZ\Bundle\EzPublishLegacyBundle;
+
+use Symfony\Component\HttpFoundation\Response;
+
+/**
+ * Class LegacyResponse
+ *
+ * An extend of the Symfony Response class with an extra module result attribute.
+ * It can be useful if you need to access module result information in an event listener.
+ *
+ */
+class LegacyResponse extends Response
+{
+    /**
+     * Module result sent by the legacy stack.
+     *
+     * @var array
+     */
+    protected $moduleResult = null;
+
+    /*
+     * Sets the module result in the response.
+     *
+     * @param array $moduleResult
+     */
+    public function setModuleResult( $moduleResult )
+    {
+        $this->moduleResult = $moduleResult;
+    }
+
+    /**
+     * Gets the module result if it exists.
+     *
+     * @return array result or null if it doesn't exist.
+     */
+    public function getModuleResult()
+    {
+        return $this->moduleResult;
+    }
+
+}

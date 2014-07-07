@@ -1,0 +1,45 @@
+parameters:
+    ezdemo.criteria_helper.class: EzSystems\DemoBundle\Helper\CriteriaHelper
+    ezdemo.menu_helper.class: EzSystems\DemoBundle\Helper\MenuHelper
+    ezdemo.place_helper.class: EzSystems\DemoBundle\Helper\PlaceHelper
+    ezdemo.search_helper.class: EzSystems\DemoBundle\Helper\SearchHelper
+    ezdemo.email_helper.class: EzSystems\DemoBundle\Helper\EmailHelper
+    ezdemo.form.type.feedback.class: EzSystems\DemoBundle\Form\Type\FeedbackType
+
+    # Default limit that will be applied when retrieving content for menus.
+    ezdemo.menu_helper.default_limit: 10
+
+    ezpublish_legacy.ezdemo_frontend_group.module_default_layout: "eZDemoBundle::pagelayout_legacy.html.twig"
+
+services:
+    ezdemo.criteria_helper:
+        class: %ezdemo.criteria_helper.class%
+
+    ezdemo.menu_helper:
+        class: %ezdemo.menu_helper.class%
+        arguments: [@ezpublish.api.repository, %ezdemo.menu_helper.default_limit%, @ezdemo.search_helper]
+
+    ezdemo.place_helper:
+            class: %ezdemo.place_helper.class%
+            arguments:
+                - @ezpublish.api.service.location
+                - @ezpublish.api.service.search
+                - @ezdemo.search_helper
+                - %ezdemo.places.place_list.min%
+                - %ezdemo.places.place_list.max%
+
+    ezdemo.email_helper:
+        class: %ezdemo.email_helper.class%
+        arguments:
+            - @translator
+            - @templating
+            - @mailer
+
+    ezdemo.search_helper:
+        class: %ezdemo.search_helper.class%
+
+    # Declaring the feedback form as a service
+    ezdemo.form.type.feedback:
+        class: %ezdemo.form.type.feedback.class%
+        tags:
+            - { name: form.type, alias: ezdemo_feedback }
