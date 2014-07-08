@@ -83,7 +83,11 @@ class mezzaLatestTaggedObjects implements eZFlowFetchInterface
                                                     null,
                                                     $customCond );
 
-        $tag_ids = array_map('id', $tags);
+        $tag_ids = array();
+        foreach( $tags as $tag )
+        {
+            array_push($tag_ids, $tag['id']);
+        }
 
         $subTreeParameters['ExtendedAttributeFilter'] = array(
             'id' => 'TagsAttributeFilter', 
