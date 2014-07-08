@@ -61,9 +61,33 @@ class mezzaLatestTaggedObjects implements eZFlowFetchInterface
             $subTreeParameters['Limit'] = (int)$parameters['Limit'];
         }
 
+        if ( isset( $parameters['Tags'] ) ) {
+            $tag_string = "'".implode("','", 
+                array_filter(  
+                    array_map('trim', explode(';', $parameters['Tags']) )
+                )
+            )."'";
+        }
+        // TODO, this needs to be done using variable binding and sanitization
+        //$db = eZDB::instance();
+        //$keyword = $db->escapeString( $keyword );
+        $customCond = " WHERE eztags.keyword IN ($tag_string)";
+        $tags = eZPersistentObject::fetchObjectList( eZTagsObject::definition(),
+                                                    array('id'),
+                                                    null,
+                                                    null,
+                                                    null,
+                                                    false,
+                                                    false,
+                                                    null,
+                                                    null,
+                                                    $customCond );
+
+        $tag_ids = array_map('id', $tags);
+
         $subTreeParameters['ExtendedAttributeFilter'] = array(
             'id' => 'TagsAttributeFilter', 
-            'params' => array('tag_id' => array(1))
+            'params' => array('tag_id' => $tag_ids)
         );
 
         if ( isset( $parameters['Depth'] ) )

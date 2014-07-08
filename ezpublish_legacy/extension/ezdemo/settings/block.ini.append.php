@@ -162,9 +162,12 @@ NumberOfValidItems=3
 NumberOfArchivedItems=5
 ManualAddingOfItems=disabled
 FetchClass=mezzaLatestTaggedObjects
+FetchParameters[]
 FetchParameters[Class]=article
 FetchParameters[Source]=2
 FetchParameters[Limit]=3
+FetchParameters[Tags]=UK
+FetchParameters[Depth]=4
 ViewList[]=default
 ViewName[default]=Default Mezza Block
 
