@@ -61,13 +61,19 @@ class mezzaLatestTaggedObjects implements eZFlowFetchInterface
             $subTreeParameters['Limit'] = (int)$parameters['Limit'];
         }
 
+        $subTreeParameters['ExtendedAttributeFilter'] = array(
+            'id' => 'TagsAttributeFilter', 
+            'params' => array('tag_id' => array(1))
+        );
+
+        if ( isset( $parameters['Depth'] ) )
+        {
+            $subTreeParameters['Depth'] = 4;
+        }
+
         $result = eZContentObjectTreeNode::subTreeByNodeID( $subTreeParameters, $nodeID );
         if ( $result === null )
             return array();
-
-
-        //$articles_with_tag = fetch( content, tree, hash( parent_node_id, 2, extended_attribute_filter, hash( id, TagsAttributeFilter, params, hash( tag_id, $tag.id ) ), class_filter_type, include, class_filter_array, array( article ) ) );
-
 
         $fetchResult = array();
         foreach( $result as $item )
