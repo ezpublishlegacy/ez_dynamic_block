@@ -9,6 +9,7 @@ Password=187924b718
 Database=bitnami_ezpublish
 Charset=
 Socket=/Applications/ezpublish-2014.03-0/mysql/tmp/mysql.sock
+SQLOutput=disabled
 
 [InformationCollectionSettings]
 EmailReceiver=
@@ -58,4 +59,13 @@ TranslationList=ger-DE
 [MailSettings]
 AdminEmail=merul@me.com
 EmailSender=
+
+[DebugSettings]
+DebugOutput=enabled
+DebugRedirection=disabled
+
+[TemplateSettings]
+Debug=disabled
+ShowXHTMLCode=enabled
+ShowUsedTemplates=enabled
 */ ?>

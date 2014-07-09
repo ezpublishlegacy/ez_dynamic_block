@@ -31,10 +31,8 @@ RelatedSiteAccessList[]=admin_site
 ShowHiddenNodes=true
 
 [DesignSettings]
-SiteDesign=admin_site
-AdditionalSiteDesignList[]=admin2
+SiteDesign=admin2
 AdditionalSiteDesignList[]=admin
-AdditionalSiteDesignList[]=ezdemo
 
 [RegionalSettings]
 Locale=eng-GB
