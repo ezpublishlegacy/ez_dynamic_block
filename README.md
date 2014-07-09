@@ -11,3 +11,5 @@ This is a repo for the ezpublish and ezpublish_legacy directories inside of a st
 2. Enabled the eztags extension using the admin GUI and enable the **admin2** design in the relevant .ini file
 3. Allow anonymous users to view and read tags
 4. Edit the Articles class using the admin GUI and remove the existing Tags attribute and add it back in
+
+* Then you can review my code commits to see how I found to do the fetch by Tags in the template first, and finally managed to work out the syntax for modifying the custom fetch class to make it more MVC.
